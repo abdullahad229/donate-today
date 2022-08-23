@@ -1,0 +1,36 @@
+body {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+
+}
+
+.banner-img {
+    background-image: url(images/donation13.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 669px;
+    background-size: cover;
+    position: relative;
+}
+
+.header-text {
+    color: white;
+    text-align: center;
+    padding-top: 175px;
+    padding-bottom: 175px;
+}
+
+.header-text h1 {
+    font-size: 65px;
+    font-weight: 700;
+}
+
+.header-text p {
+    margin-bottom: 15px;
+}
+
+.red-button {
+    background-color: orangered;
+    color: white;
+    padding: 15px 12px;
+}
