@@ -25,12 +25,72 @@ body {
     font-weight: 700;
 }
 
-.header-text p {
+p {
     margin-bottom: 15px;
+    color: #707070;
 }
 
 .red-button {
     background-color: orangered;
     color: white;
-    padding: 15px 12px;
+}
+.donate-money-option {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.donate-money-option>h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+.donate-card-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.donate-card {
+    width: 135px;
+    height: 123px;
+    background-color: #FAFAFA;
+    border-radius: 5px;
+}
+.donate-card h3{
+    color: #707070;
+    font-size: 24px;
+    font-weight: 700;
+margin-top: 46px;
+}
+#red-card {
+    background-color:#FFEEEE;
+    color:#FF5959;
+    border: 2px solid #FF5959;
+}
+.input-amount {
+    outline: 0;
+    border-width: 0 0 1px;
+    width: 100%;
+    text-align: center;
+}
+#plan-card-section {
+    width: 80%;
+}
+.plan-card {
+ width: 360px;
+ height: 300px;
+border-radius: 5px;
+text-align: left;
+padding-top: 60px;
+padding-left: 15px;
+padding-right: 10px;
+margin-left: 20px;
+}
+#food-card {
+    background-color: #e6f8fa;
+}
+#sheltar-icon {
+    background-color: #fbe1e1;
+}
+#education-card {
+    background-color: rgb(253, 253, 209);
 }
