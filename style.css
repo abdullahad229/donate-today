@@ -118,3 +118,14 @@ button {
     color: white;
     font-weight: 600;
 }
+footer {
+    height: 177px;
+    background-color: #0B0D17;
+    color: white;
+    text-align: center;
+}
+footer h1{
+    padding-top: 60px;
+    font-family: 'Lobster Two', cursive;
+    color: #FF5959;
+}
